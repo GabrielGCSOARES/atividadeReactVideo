@@ -3,7 +3,7 @@ import { StyleSheet } from "react-native";
 const styles = StyleSheet.create({
     container:{
         flex:1,
-        backgroundColor: "#ffffff",
+        backgroundColor: "#a49f9fff",
         justifyContent: "center",
         alignItems: "center"   
     },
@@ -16,7 +16,19 @@ const styles = StyleSheet.create({
         width: 300,
         height: 300,
         borderRadius: 8,
-        borderWidth: 1,
+        borderWidth: 2,
+        borderColor: "#000000",
+        borderStyle: "solid"
+    },
+    botaoVoltar: {
+        backgroundColor: '#6e4747ff',
+        height: 50,
+        width: 250,
+        justifyContent: 'center',
+        alignItems: 'center',
+        borderRadius: 8,
+        marginTop: 10,
+        borderWidth: 2,
         borderColor: "#000000",
         borderStyle: "solid"
     }

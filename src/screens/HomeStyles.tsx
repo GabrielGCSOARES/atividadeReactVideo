@@ -3,7 +3,7 @@ import { StyleSheet } from "react-native";
 const styles = StyleSheet.create({
     container:{
         flex:1,
-        backgroundColor: "#d9d9d9",
+        backgroundColor: "#a49f9fff",
         justifyContent: "center",
         alignItems: "center",
         gap: 20
@@ -20,8 +20,10 @@ const styles = StyleSheet.create({
         width: 250,
         justifyContent: "center",
         alignItems: "center",
-        borderRadius: 8
-        
+        borderRadius: 8,
+        borderWidth: 2,
+        borderColor: "#000000",
+        borderStyle: "solid"
     },
     link:{
         marginTop: 20
